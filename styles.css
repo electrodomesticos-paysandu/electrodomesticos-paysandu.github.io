@@ -504,6 +504,82 @@ script {
     
 }
 
+/*---------------------------------desde aca es la misma pagina responsive(para celulares---------------*/
+
+
+@media (max-width: 768px){
+    body {
+        text-align: center;
+        
+        
+    }
+
+    .nav1 {
+       padding: 20px;
+       
+    }
+
+    .imagen-paysandu {
+        /*display: block; margin: 0 auto; max-width: 100%;*/
+        padding-left: 20px;
+    }
+
+    .sec {
+        padding-left: 0%;
+        image-resolution: 1px;
+        margin-left: -11%;
+        
+    }
+
+    .sec23 {
+        padding-left: 20px;
+    }
+
+    .letras {
+        padding-left: 20px;
+    }
+
+    .mi-hor {
+        /*padding-left: 7%;*/
+        text-align: center;
+    }
+
+
+    .sec1 {
+        padding-right: 70px;
+        margin-right: -35%;
+    }
+
+    .sec24 {
+        padding-right: 20px;
+    }
+
+    .formulario {
+        padding-right: 110px;
+        margin-left: -110%;    
+    }
+
+    .form-content {
+        background: transparent;
+    }
+
+    .cont1 {
+        text-align: center;
+    }
+
+    .red {
+        padding-right: 30px;
+        margin-left: -70px;
+    }
+
+    .footer {
+        margin-top: 70%;
+    }
+
+    
+}
+
+
 .fa {
     padding-top: 5px;
     padding: 4px;
