@@ -510,6 +510,17 @@ script {
 @media (max-width: 768px){
     body {
         text-align: center;
+        background: grey;
+    background: linear-gradient(
+        50deg,
+        rgba(20,42,55,1) 1%,
+        rgba(40,42,55,0.7)),
+        /*url(imagenes/micro2.jpg);*/
+        url(encabezado/logo\ marca.png);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: 45% 10%;
+        backdrop-filter: blur(3px);
         
         
     }
@@ -574,6 +585,26 @@ script {
 
     .footer {
         margin-top: 70%;
+    }
+
+    .mail {
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        color: whitesmoke;
+        margin-left: -12%;
+    }
+    
+    .imagen-paysandu1 {
+        padding: 50px;
+    }
+
+    .flecha1 {
+        padding-right: 5px;
+        background: black;
+        border-radius: 55px;
+        padding-left: 5px;
+        margin-right: 20px;
+        margin-top: 50px;
     }
 
     
