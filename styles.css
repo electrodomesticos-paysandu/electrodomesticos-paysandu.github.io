@@ -607,6 +607,10 @@ script {
         margin-top: 50px;
     }
 
+    .footer1 {
+        display: none;
+    }
+
     
 }
 
