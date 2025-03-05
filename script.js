@@ -11,8 +11,8 @@ if (localStorage.getItem('contador')) {
 }
 
 //incrementa el contador cada vez que se carga la pagina
-//contador++;
-contador=0;
+contador++;
+//contador=0;
 
 // guarda el contador en el almacenamiento local
 localStorage.setItem('contador', contador);
