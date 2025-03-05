@@ -509,7 +509,8 @@ script {
 #contador {
     font-size: 48px;
     font-weight: bold;
-    color: #333;
+    /*color: #333;*/
+    color: transparent;
 }
 
 /*---------------------------------desde aca es la misma pagina responsive(para celulares---------------*/
